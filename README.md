@@ -14,6 +14,7 @@ References to or implementations of algorithms &amp; benchmarking methods relate
 2. LiDAR - depth
 3. DTM/DEM/GIS prior information
 4. spectral data ?
+5. high resolution radar ?
 
 ## Types of algorithms and what they analyze
 1. Mathematical models and preset heuristic rules - point cloud data as input - for gemoetric terrain charecteristics (Hazard metrics) analyisis ex: slope, roughness, obstacle offset, point density and size of the Delivery / landing areas.
