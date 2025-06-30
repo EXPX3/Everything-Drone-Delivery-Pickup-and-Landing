@@ -1,5 +1,5 @@
 # Everything-Drone-Delivery-and-Landing
-References to or implementations of algorithms &amp; benchmarking framework related to Drone Delivery and landing.  
+References to or implementations of algorithms &amp; benchmarking methods related to Drone Delivery and landing.  
 
 # No universal Drone delivery and landing algorithm. Shall be tailored specifically for usecase. 
 ## Popular usecases already thriving in real-world scenarios are
@@ -16,7 +16,7 @@ References to or implementations of algorithms &amp; benchmarking framework rela
 4. spectral data ?
 
 ## Types of algorithms and what they analyze
-1. Mathematical models and preset heuristic rules - point cloud data as input - for gemoetric terrain charecteristics analyisis ex: slope, roughness, obstacle offset, point density and size of the Delivery / landing areas.
+1. Mathematical models and preset heuristic rules - point cloud data as input - for gemoetric terrain charecteristics (Hazard metrics) analyisis ex: slope, roughness, obstacle offset, point density and size of the Delivery / landing areas.
    - Drawbacks: lack of semantic information of terrain objects like water, complex unstable flat surface etc
    - Positive: simple and computationally cheap
 2. Image processing-based methods - images as input - for visual edge, pattern, texture analyisis ex: uniform region in an image may point to flat region, edges may highlight boundaries etc.
@@ -30,4 +30,5 @@ References to or implementations of algorithms &amp; benchmarking framework rela
 
 ## Benchmarking 
 1. Opensourced Data sets with ground truth information: algorithms can be tetsed on this commonly available dataset and publish performance results.
-2. Monte-Carlo simulations:
+2. Monte-Carlo simulations based benchmarking (implementation available - cosmetics ):  for each hazard metric independently, adjusting its value across the acceptable-to-unacceptable range while maintaining other metrics within thresholds. Thresholds for hazard metrics, such as relief, roughness, slope, radius, and point density, are determined based on the UAS’s landing gear ground clearance, maximum offset from surroundings, and intended operating height. Doing so the edge case behaviour of the Delivery / Landing zone detection method is studied with an aim of evaluating the algorithm for its success rate, computation time and memory in the current implementaion.
+3. 
