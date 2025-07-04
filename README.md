@@ -36,6 +36,7 @@ Purpose of this repo is to keep track of academic research and realworld adoptio
    - Lidar based DL:
    - image+Lidar based DL:
 4. New sensible potential combinations of above methods.
+5. ...
 
 ## Benchmarking 
 1. Opensourced Data sets with ground truth information: algorithms can be tetsed on this commonly available dataset and publish performance results.
