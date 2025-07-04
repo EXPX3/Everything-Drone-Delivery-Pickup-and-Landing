@@ -1,5 +1,5 @@
 # Everything-Drone-Delivery-Pickup-and-Landing.
-# NOTE: Work in Progress, Feel free to make any suggestions, remarks via github issues. 
+# NOTE: Work in Progress, Feel free to make any suggestions, remarks via github issues / pull requests. 
 Purpose of this repo is to keep track of academic research and realworld adoption of Drone delivery, pickup and landing technology. Expect, open-source implementations, publications, interviews etc any media relavant to the topic.  
 
 # No universal Drone delivery , pickup and landing algorithm. Shall be tailored specifically for usecase. 
