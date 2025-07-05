@@ -11,10 +11,11 @@ Purpose of this repo is to keep track of academic research and realworld adoptio
 5. ... 
 
 ## Common requirments for Delivery & Pickup Drone Operations:
-1. Designated / Regulated Flying corridors ?
-2. Emergency Safe Landing
-3. Drone traffic handling ?
-4.  ...
+1. Designated / Regulated Flying corridors / Drone traffic handling ?
+2. Landing Delivery Zone Detection
+3. Emergency safe Landing strategies
+4. ...
+
 
  
 ## Perception capabilities of the Drone for Delivery, Pickup and landing, state of the art and future ...
@@ -23,6 +24,7 @@ Purpose of this repo is to keep track of academic research and realworld adoptio
 3. DTM/DEM/GIS prior information
 4. spectral data ?
 5. high resolution radar ?
+6. ...
 
 # Algorithms & Benchmarking strategies
 ## Types of Drone Delivery and landing zone detection algorithms ...
