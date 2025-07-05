@@ -1,5 +1,5 @@
 # Everything-Drone-Delivery-Pickup-and-Landing.
-# NOTE: Work in Progress, Feel free to make any suggestions, remarks via github issues / pull requests. 
+# NOTE: Work in Progress (WIP), Feel free to make any suggestions, remarks via github issues / pull requests. 
 Purpose of this repo is to keep track of academic research and realworld adoption of Drone delivery, pickup and landing technology. Expect, open-source implementations, publications, interviews etc any media relavant to the topic.  
 
 # No universal Drone delivery , pickup and landing algorithm. Shall be tailored specifically for usecase. 
@@ -24,7 +24,8 @@ Purpose of this repo is to keep track of academic research and realworld adoptio
 4. spectral data ?
 5. high resolution radar ?
 
-## Types of Drone Delivery and landing zone detection algorithms and what they analyze ...
+# Algorithms & Benchmarking strategies
+## Types of Drone Delivery and landing zone detection algorithms ...
 1. Mathematical models and preset heuristic rules - point cloud data as input - for gemoetric terrain charecteristics (Hazard metrics) analyisis ex: slope, roughness, obstacle offset, point density and size of the Delivery / landing areas.
    - Drawbacks: lack of semantic information of terrain objects like water, complex unstable flat surface etc
    - Positive: simple and computationally cheap
@@ -39,6 +40,6 @@ Purpose of this repo is to keep track of academic research and realworld adoptio
 5. ...
 
 ## Benchmarking 
-1. Opensourced Data sets with ground truth information: algorithms can be tetsed on this commonly available dataset and publish performance results.
-2. Monte-Carlo simulations based benchmarking (implementation available - cosmetics ):  for each hazard metric independently, adjusting its value across the acceptable-to-unacceptable range while maintaining other metrics within thresholds. Thresholds for hazard metrics, such as relief, roughness, slope, radius, and point density, are determined based on the UAS’s landing gear ground clearance, maximum offset from surroundings, and intended operating height. Doing so the edge case behaviour of the Delivery / Landing zone detection method is studied with an aim of evaluating the algorithm for its success rate, computation time and memory in the current implementaion.
+1. Opensourced Data sets with ground truth information: algorithms can be tetsed on this publicly available datasets and publish performance results. Example datasets: [ECLAIR: A High-Fidelity Aerial LiDAR Dataset for Semantic Segmentation](https://github.com/SharperShape/eclair-dataset), [MUN-FRL: Aerial Visual-Inertial-LiDAR Odometry and Mapping Dataset](https://mun-frl-vil-dataset.readthedocs.io/en/latest/), [MARS-LVIG Dataset: A multi-sensor aerial robots SLAM dataset for LiDAR-visual-inertial-GNSS fusion](https://mars.hku.hk/dataset.html), ...
+2. Monte-Carlo simulations based benchmarking (implementation available - cosmetics ):  for each hazard metric independently, adjusting its value across the acceptable-to-unacceptable range while maintaining other metrics within thresholds. Thresholds for hazard metrics, such as relief, roughness, slope, radius, and point density, are determined based on the UAS’s landing gear ground clearance, maximum offset from surroundings, and intended operating height. Doing so the edge case behaviour of the Delivery / Landing zone detection method is studied with an aim of evaluating the algorithm for its success rate, computation time and memory in the current implementaion. [Algorithms & Benchmarking strategies](https://github.com/EXPX3/Drone-Delivery-Landing-Zone-Detection)
 3. ...
