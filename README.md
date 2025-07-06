@@ -28,7 +28,7 @@ Purpose of this repo is to keep track of academic research and realworld adoptio
 
 # Algorithms & Benchmarking strategies
 ## Types of Drone Delivery and landing zone detection algorithms ...
-1. Mathematical models and preset heuristic rules - point cloud data as input - for gemoetric terrain charecteristics (Hazard metrics) analyisis ex: slope, roughness, obstacle offset, point density and size of the Delivery / landing areas.
+1. Traditional rule based mathematical models with preset heuristic rules - point cloud data as input - for gemoetric terrain charecteristics (Hazard metrics) analyisis ex: slope, roughness, obstacle offset, point density and size of the Delivery / landing areas.
    - Drawbacks: lack of semantic information of terrain objects like water, complex unstable flat surface etc
    - Positive: simple and computationally cheap
 2. Image processing-based methods - images as input - for visual edge, pattern, texture analyisis ex: uniform region in an image may point to flat region, edges may highlight boundaries etc.
